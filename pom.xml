@@ -67,7 +67,7 @@
 
         <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
 
-        <sonar.version>6.4</sonar.version>
+        <sonar.version>5.0</sonar.version>
         <sslr.version>1.20</sslr.version>
 
         <!-- Configuration for sonar-packaging-maven-plugin -->
@@ -80,7 +80,7 @@
         <dependency>
             <groupId>org.codehaus.sonar</groupId>
             <artifactId>sonar-plugin-api</artifactId>
-            <version>${sonar.version}</version>
+            <version>6.3</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
